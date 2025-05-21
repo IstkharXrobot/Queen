@@ -5,9 +5,8 @@ from dotenv import load_dotenv
 from pyrogram import filters
 
 load_dotenv()
-
-API_ID = int(getenv("API_ID", "6435225"))
-API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", '30DxNexGenBots938b57') # youtube song api ke
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://bot.telescope.workers.dev/open/BQACAgUAAx0EWiS9TAACGIdnjgVUqwmxg528zQYmShURuLW8EQACehIAAks-cVS5sFK1aoMm4DYE/vTelegraphBot.html")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
