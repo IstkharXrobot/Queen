@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 from pyrogram import filters
 
 load_dotenv()
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", '30DxNexGenBots938b57') # youtube song api ke
+API_ID = int(getenv("API_ID", "6435225"))
+API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://bot.telescope.workers.dev/open/BQACAgUAAx0EWiS9TAACGIdnjgVUqwmxg528zQYmShURuLW8EQACehIAAks-cVS5sFK1aoMm4DYE/vTelegraphBot.html")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -32,6 +32,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", '30DxNexGenBots938b57') # youtube song api ke
+
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARISHFA_UPDATE")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+5c6C7tK1gEFlM2Nl")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -56,7 +59,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/x8zk51.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/p6tmc0.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/lcdpra.jpg")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/lcdpra.jpg")
