@@ -36,7 +36,7 @@ API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", 'NxGBNexGenBots7ed2dc') # youtube song api ke
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+U6ZQM_J7H8E5ZGM1")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+5c6C7tK1gEFlM2Nl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+Uers4nlIX45kNWQ1")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
